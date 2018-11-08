@@ -4,14 +4,14 @@ import java.util.List;
 
 public interface UserServiceInterface {
 
-    List<UserModel> findAllUsers();
+    List<UserEntity> findAllUsers();
 
-    UserModel findUserById(Long id);
+    UserEntity findUserById(Long id);
 
     UserEntity findUserByUserName(String username);
 
     UserEntity findUserByEmail(String email);
 
-    UserModel createNewUser(UserModel userModel);
+    UserEntity createNewUser(UserEntity user);
 
 }
