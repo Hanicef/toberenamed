@@ -1,0 +1,1586 @@
+[1mApache Maven 3.5.0 (Red Hat 3.5.0-6)[m
+Maven home: /usr/share/maven
+Java version: 1.8.0_181, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.181-7.b13.fc27.x86_64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.17.19-100.fc27.x86_64", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: [1;36mdebug[m [1;34minfo[m [1;33mwarning[m [1;31merror[m [1;32msuccess[m [1;31mfailure[m [1mstrong[m [32mmojo[m [36mproject[m
+[DEBUG] Reading global settings from /usr/share/maven/conf/settings.xml
+[DEBUG] Reading user settings from /home/gustaf/.m2/settings.xml
+[DEBUG] Reading global toolchains from /usr/share/maven/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /home/gustaf/.m2/toolchains.xml
+[DEBUG] Using local repository at /home/gustaf/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/gustaf/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.communityratesgames:Community_Rates_Games:war:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging war from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:2.0.0.RELEASE: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:2.0.0.RELEASE: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix lint from [org.apache.maven.plugins, org.codehaus.mojo]
+[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+org.apache.maven.plugin.PluginResolutionException: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve(DefaultPluginDependenciesResolver.java:128)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getPluginDescriptor(DefaultMavenPluginManager.java:182)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.loadPlugin(DefaultBuildPluginManager.java:83)
+	at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject(DefaultPluginPrefixResolver.java:139)
+	at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolveFromProject(DefaultPluginPrefixResolver.java:125)
+	at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve(DefaultPluginPrefixResolver.java:85)
+	at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix(MojoDescriptorCreator.java:266)
+	at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor(MojoDescriptorCreator.java:220)
+	at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments(DefaultLifecycleTaskSegmentCalculator.java:104)
+	at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments(DefaultLifecycleTaskSegmentCalculator.java:83)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:89)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:309)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:194)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:107)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:993)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:345)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:191)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:422)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:224)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:201)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:260)
+	at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve(DefaultPluginDependenciesResolver.java:124)
+	... 24 more
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Failure to find org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:235)
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:208)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:563)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:481)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:399)
+	... 28 more
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (/home/gustaf/.m2/repository)
+[DEBUG] Skipped remote request for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (/home/gustaf/.m2/repository)
+[DEBUG] Skipped remote request for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (/home/gustaf/.m2/repository)
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (/home/gustaf/.m2/repository)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repo.maven.apache.org/maven2
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+[DEBUG] CookieSpec selected: compatibility
+[DEBUG] CookieSpec selected: compatibility
+[DEBUG] Connection request: [route: {s}->https://repo.maven.apache.org:443][total kept alive: 0; route allocated: 0 of 20; total allocated: 0 of 40]
+[DEBUG] Connection request: [route: {s}->https://repo.maven.apache.org:443][total kept alive: 0; route allocated: 0 of 20; total allocated: 0 of 40]
+[DEBUG] Connection leased: [id: 0][route: {s}->https://repo.maven.apache.org:443][total kept alive: 0; route allocated: 2 of 20; total allocated: 2 of 40]
+[DEBUG] Connection leased: [id: 1][route: {s}->https://repo.maven.apache.org:443][total kept alive: 0; route allocated: 2 of 20; total allocated: 2 of 40]
+[DEBUG] Opening connection {s}->https://repo.maven.apache.org:443
+[DEBUG] Opening connection {s}->https://repo.maven.apache.org:443
+[DEBUG] Connecting to repo.maven.apache.org/151.101.84.215:443
+[DEBUG] Connecting socket to repo.maven.apache.org/151.101.84.215:443 with timeout 0
+[DEBUG] Connecting to repo.maven.apache.org/151.101.84.215:443
+[DEBUG] Connecting socket to repo.maven.apache.org/151.101.84.215:443 with timeout 0
+[DEBUG] Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+[DEBUG] Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[DEBUG] Starting handshake
+[DEBUG] Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+[DEBUG] Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[DEBUG] Starting handshake
+[DEBUG] Secure session established
+[DEBUG]  negotiated protocol: TLSv1.2
+[DEBUG]  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[DEBUG]  peer principal: CN=repo.maven.apache.org, O="Sonatype, Inc", L=Fulton, ST=MD, C=US
+[DEBUG]  peer alternative names: [repo.maven.apache.org]
+[DEBUG]  issuer principal: CN=DigiCert SHA2 Secure Server CA, O=DigiCert Inc, C=US
+[DEBUG] Secure session established
+[DEBUG]  negotiated protocol: TLSv1.2
+[DEBUG]  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[DEBUG]  peer principal: CN=repo.maven.apache.org, O="Sonatype, Inc", L=Fulton, ST=MD, C=US
+[DEBUG]  peer alternative names: [repo.maven.apache.org]
+[DEBUG]  issuer principal: CN=DigiCert SHA2 Secure Server CA, O=DigiCert Inc, C=US
+[DEBUG] Connection established 100.74.7.93:36016<->151.101.84.215:443
+[DEBUG] http-outgoing-0: set socket timeout to 1800000
+[DEBUG] Connection established 100.74.7.93:36014<->151.101.84.215:443
+[DEBUG] Executing request GET /maven2/org/apache/maven/plugins/maven-metadata.xml HTTP/1.1
+[DEBUG] http-outgoing-1: set socket timeout to 1800000
+[DEBUG] Target auth state: UNCHALLENGED
+[DEBUG] Executing request GET /maven2/org/codehaus/mojo/maven-metadata.xml HTTP/1.1
+[DEBUG] Target auth state: UNCHALLENGED
+[DEBUG] Proxy auth state: UNCHALLENGED
+[DEBUG] Proxy auth state: UNCHALLENGED
+[DEBUG] http-outgoing-0 >> GET /maven2/org/apache/maven/plugins/maven-metadata.xml HTTP/1.1
+[DEBUG] http-outgoing-1 >> GET /maven2/org/codehaus/mojo/maven-metadata.xml HTTP/1.1
+[DEBUG] http-outgoing-0 >> Cache-control: no-cache
+[DEBUG] http-outgoing-1 >> Cache-control: no-cache
+[DEBUG] http-outgoing-1 >> Cache-store: no-store
+[DEBUG] http-outgoing-0 >> Cache-store: no-store
+[DEBUG] http-outgoing-1 >> Pragma: no-cache
+[DEBUG] http-outgoing-1 >> Expires: 0
+[DEBUG] http-outgoing-0 >> Pragma: no-cache
+[DEBUG] http-outgoing-1 >> Accept-Encoding: gzip
+[DEBUG] http-outgoing-0 >> Expires: 0
+[DEBUG] http-outgoing-0 >> Accept-Encoding: gzip
+[DEBUG] http-outgoing-1 >> User-Agent: Apache-Maven/3.5.0 (Java 1.8.0_181; Linux 4.17.19-100.fc27.x86_64)
+[DEBUG] http-outgoing-0 >> User-Agent: Apache-Maven/3.5.0 (Java 1.8.0_181; Linux 4.17.19-100.fc27.x86_64)
+[DEBUG] http-outgoing-1 >> Host: repo.maven.apache.org
+[DEBUG] http-outgoing-0 >> Host: repo.maven.apache.org
+[DEBUG] http-outgoing-1 >> Connection: Keep-Alive
+[DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[DEBUG] http-outgoing-0 >> "GET /maven2/org/apache/maven/plugins/maven-metadata.xml HTTP/1.1[\r][\n]"
+[DEBUG] http-outgoing-1 >> "GET /maven2/org/codehaus/mojo/maven-metadata.xml HTTP/1.1[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Cache-control: no-cache[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Cache-control: no-cache[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Cache-store: no-store[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Cache-store: no-store[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Pragma: no-cache[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Pragma: no-cache[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Expires: 0[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Expires: 0[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Accept-Encoding: gzip[\r][\n]"
+[DEBUG] http-outgoing-0 >> "User-Agent: Apache-Maven/3.5.0 (Java 1.8.0_181; Linux 4.17.19-100.fc27.x86_64)[\r][\n]"
+[DEBUG] http-outgoing-1 >> "User-Agent: Apache-Maven/3.5.0 (Java 1.8.0_181; Linux 4.17.19-100.fc27.x86_64)[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Host: repo.maven.apache.org[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Host: repo.maven.apache.org[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] http-outgoing-0 >> "[\r][\n]"
+[DEBUG] http-outgoing-1 >> "[\r][\n]"
+[DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] http-outgoing-0 << "ETag: "bf70ea189950f38930f15f3b5a9327f7"[\r][\n]"
+[DEBUG] http-outgoing-0 << "Content-Type: text/xml[\r][\n]"
+[DEBUG] http-outgoing-0 << "Last-Modified: Sun, 11 Nov 2018 23:56:40 GMT[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Checksum-MD5: bf70ea189950f38930f15f3b5a9327f7[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Checksum-SHA1: aed2578d4e5b675d6cdcfea39d7692db6b86a4e3[\r][\n]"
+[DEBUG] http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] http-outgoing-0 << "Content-Length: 13611[\r][\n]"
+[DEBUG] http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] http-outgoing-0 << "Date: Wed, 21 Nov 2018 13:41:05 GMT[\r][\n]"
+[DEBUG] http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] http-outgoing-0 << "Age: 825438[\r][\n]"
+[DEBUG] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Served-By: cache-iad2143-IAD, cache-bma1636-BMA[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Cache: HIT, HIT[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Cache-Hits: 1, 817[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Timer: S1542807665.242513,VS0,VE0[\r][\n]"
+[DEBUG] http-outgoing-0 << "[\r][\n]"
+[DEBUG] http-outgoing-0 << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+[DEBUG] http-outgoing-0 << "<metadata>[\n]"
+[DEBUG] http-outgoing-0 << "  <plugins>[\n]"
+[DEBUG] http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] http-outgoing-1 << "ETag: "1ba56a87d07a2c6043455042b2a5718b"[\r][\n]"
+[DEBUG] http-outgoing-1 << "Content-Type: text/xml[\r][\n]"
+[DEBUG] http-outgoing-1 << "Last-Modified: Sat, 08 Sep 2018  9:26:08 GMT[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-Checksum-MD5: 1ba56a87d07a2c6043455042b2a5718b[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-Checksum-SHA1: 2fa1b0f4d5086d9251cf43842717df1783288abe[\r][\n]"
+[DEBUG] http-outgoing-1 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] http-outgoing-1 << "Content-Length: 20471[\r][\n]"
+[DEBUG] http-outgoing-1 << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] http-outgoing-1 << "Date: Wed, 21 Nov 2018 13:41:05 GMT[\r][\n]"
+[DEBUG] http-outgoing-1 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] http-outgoing-1 << "Age: 6404903[\r][\n]"
+[DEBUG] http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-Served-By: cache-iad2132-IAD, cache-bma1637-BMA[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-Cache: HIT, HIT[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-Cache-Hits: 33, 1589[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-Timer: S1542807665.242786,VS0,VE0[\r][\n]"
+[DEBUG] http-outgoing-1 << "[\r][\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven ACR Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>acr</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-acr-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Ant Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>ant</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-ant-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven ANTLR Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>antlr</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-antlr-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven AntRun Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>antrun</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-antrun-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Archetype Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>archetype</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-archetype-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Assembly Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>assembly</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-assembly-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Changelog Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>changelog</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-changelog-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Changelog Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>changelog</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-changelog-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Changes Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>changes</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-changes-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Checkstyle Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>checkstyle</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-checkstyle-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Checkstyle Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>checkstyle</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-checkstyle-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Clean Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>clean</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-clean-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Clover Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>clover</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-clover-plugin</artifac"
+[DEBUG] http-outgoing-1 << HTTP/1.1 200 OK
+[DEBUG] http-outgoing-1 << ETag: "1ba56a87d07a2c6043455042b2a5718b"
+[DEBUG] http-outgoing-1 << Content-Type: text/xml
+[DEBUG] http-outgoing-1 << Last-Modified: Sat, 08 Sep 2018  9:26:08 GMT
+[DEBUG] http-outgoing-1 << X-Checksum-MD5: 1ba56a87d07a2c6043455042b2a5718b
+[DEBUG] http-outgoing-1 << X-Checksum-SHA1: 2fa1b0f4d5086d9251cf43842717df1783288abe
+[DEBUG] http-outgoing-1 << Via: 1.1 varnish
+[DEBUG] http-outgoing-1 << Content-Length: 20471
+[DEBUG] http-outgoing-1 << Accept-Ranges: bytes
+[DEBUG] http-outgoing-1 << Date: Wed, 21 Nov 2018 13:41:05 GMT
+[DEBUG] http-outgoing-1 << Via: 1.1 varnish
+[DEBUG] http-outgoing-1 << Age: 6404903
+[DEBUG] http-outgoing-1 << Connection: keep-alive
+[DEBUG] http-outgoing-1 << X-Served-By: cache-iad2132-IAD, cache-bma1637-BMA
+[DEBUG] http-outgoing-1 << X-Cache: HIT, HIT
+[DEBUG] http-outgoing-1 << X-Cache-Hits: 33, 1589
+[DEBUG] http-outgoing-1 << X-Timer: S1542807665.242786,VS0,VE0
+[DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[DEBUG] http-outgoing-0 << ETag: "bf70ea189950f38930f15f3b5a9327f7"
+[DEBUG] http-outgoing-0 << Content-Type: text/xml
+[DEBUG] http-outgoing-0 << Last-Modified: Sun, 11 Nov 2018 23:56:40 GMT
+[DEBUG] http-outgoing-0 << X-Checksum-MD5: bf70ea189950f38930f15f3b5a9327f7
+[DEBUG] http-outgoing-0 << X-Checksum-SHA1: aed2578d4e5b675d6cdcfea39d7692db6b86a4e3
+[DEBUG] http-outgoing-0 << Via: 1.1 varnish
+[DEBUG] http-outgoing-0 << Content-Length: 13611
+[DEBUG] http-outgoing-0 << Accept-Ranges: bytes
+[DEBUG] http-outgoing-0 << Date: Wed, 21 Nov 2018 13:41:05 GMT
+[DEBUG] http-outgoing-0 << Via: 1.1 varnish
+[DEBUG] http-outgoing-0 << Age: 825438
+[DEBUG] http-outgoing-0 << Connection: keep-alive
+[DEBUG] http-outgoing-0 << X-Served-By: cache-iad2143-IAD, cache-bma1636-BMA
+[DEBUG] http-outgoing-0 << X-Cache: HIT, HIT
+[DEBUG] http-outgoing-0 << X-Cache-Hits: 1, 817
+[DEBUG] http-outgoing-0 << X-Timer: S1542807665.242513,VS0,VE0
+[DEBUG] Connection can be kept alive indefinitely
+[DEBUG] Connection can be kept alive indefinitely
+[DEBUG] http-outgoing-1 << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+[DEBUG] http-outgoing-1 << "<metadata>[\n]"
+[DEBUG] http-outgoing-1 << "  <plugins>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Animal Sniffer Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>animal-sniffer</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>animal-sniffer-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven ANTLR Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>antlr</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>antlr-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>ANTLR-v3 Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>antlr3</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>antlr3-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Appassembler :: Maven Plug-In</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>appassembler</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>appassembler-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Appfuse Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>appfuse</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>appfuse-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Apt Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>apt</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>apt-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Mojo's AspectJ Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>aspectj</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>aspectj-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Axis Tools Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>axistools</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>axistools-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Batik Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>batik</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>batik-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Build Helper Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>build-helper</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>build-helper-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Dependency Builder Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>build-on-demand</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>build-on-demand-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Build Number Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>buildnumber</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>buildnumber-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Mojo's Cassandra Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>cassandra</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>cassandra-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Castor Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>castor</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>castor-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven C-Build Lifecycle Mappings</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>cbuild-lifecycles</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>cbuild-lifecycles</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Changelog Plug-in</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>changelog</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>changelog-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Changes Report Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>changes</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>changes-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>C"
+Progress (1): maven-metadata.xml (2.1/14 kB)[DEBUG] http-outgoing-0 << "tId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Compiler Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>compiler</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-compiler-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Continuum Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>continuum</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-continuum-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Core Integration Test Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>core-it</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-core-it-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Dependency Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>dependency</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-dependency-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Deploy Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>deploy</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-deploy-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Deploy Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>deploy</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-deploy-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven DOAP Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>doap</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-doap-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Documentation Checker Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>docck</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-docck-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven EAR Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>ear</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-ear-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven EAR Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>ear</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-ear-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven EAR Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>ear</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-ear-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Eclipse Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>eclipse</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-eclipse-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven EJB Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>ejb</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-ejb-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Enforcer Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>enforcer</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-enforcer-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Enforcer Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>enforcer</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-enforcer-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Failsafe Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>failsafe</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-failsafe-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven GPG Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>gpg</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-gpg-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven GPG Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>gpg</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-gpg-plugin</artifactId>"
+Progress (2): maven-metadata.xml (2.1/14 kB) | maven-metadata.xml (2.8/20 kB)Progress (2): maven-metadata.xml (4.8/14 kB) | maven-metadata.xml (2.8/20 kB)[DEBUG] http-outgoing-1 << "hronos JMeter</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>chronos-jmeter</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>chronos-jmeter-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Chronos Report</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>chronos-report</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>chronos-report-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Chronos Surefire</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>chronos-surefire</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>chronos-surefire-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Clirr Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>clirr</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>clirr-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Mojo's Maven plugin for Cobertura</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>cobertura</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>cobertura-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Help Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>help</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-help-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven IDEA Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>idea</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-idea-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven IDEA Plugin (RETIRED)</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>idea</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-idea-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Install Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>install</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-install-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Install Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>install</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-install-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Invoker Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>invoker</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-invoker-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven JAR Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>jar</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-jar-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Jar Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>jar</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-jar-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Jarsigner Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>jarsigner</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-jarsigner-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Jarsigner Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>jarsigner</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-jarsigner-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Javadoc Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>javadoc</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-javadoc-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Javadoc Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>javadoc</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-javadoc-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven JDeprScan Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>jdeprscan</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-jdeprscan-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven JDeps Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>jdeps</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-jdeps-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven JLink Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>jlink</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-jlink-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven JMod Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>jmod</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-jmod-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven JXR Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>jxr</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-jxr-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Linkcheck Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>linkcheck</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-linkcheck-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "   "
+Progress (2): maven-metadata.xml (7.6/14 kB) | maven-metadata.xml (2.8/20 kB)[DEBUG] http-outgoing-0 << " </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven 1.x Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>maven-one-plugin</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-one-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven One Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>maven-one-plugin</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-one-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven One Plugin (RETIRED)</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>one</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-one-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Patch Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>CodeNarc Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>patch</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-patch-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>codenarc</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>codenarc-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Patch Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>patch</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Commons Attributes Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-patch-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>commons-attributes</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>commons-attributes-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven PDF Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>pdf</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-pdf-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Dashboard Report Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>dashboard</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>dashboard-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Plugin Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>plugin</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-plugin-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>DbUnit Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>dbunit</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>dbunit-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven PLUGIN Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>plugin</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-plugin-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Database Upgrade Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>dbupgrade</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>dbupgrade-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven PMD Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>pmd</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-pmd-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Dependency Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>dependency</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>dependency-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Project Info Reports Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>project-info-reports</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-project-info-reports-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Deploy All Plugin for Maven</name>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>deploy-all</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>deploy-all-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Project-Help Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>projecthelp</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-projecthelp-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>DITA Open Toolkit Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>dita</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>dita-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven RAR Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>rar</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-rar-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>DITA Open Toolkit Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>ditaot</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>ditaot-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven RAR Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>rar</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-rar-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Docbook plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>docbook</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Reactor Plugin (RETIRED)</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>reactor</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-reactor-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Release Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>release</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-release-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Release Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>release</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-release-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Remote Resources Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>remote-resources</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-remote-resources-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Remote Resources Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>remote-resources</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <art"
+[DEBUG] http-outgoing-1 << "      <artifactId>docbook-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Emma Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>emma</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>emma-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Enchanter Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>enchanter</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>enchanter-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Exec Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>exec</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>exec-maven-plu"
+Progress (2): maven-metadata.xml (10/14 kB) | maven-metadata.xml (2.8/20 kB) [DEBUG] http-outgoing-0 << "ifactId>maven-remote-resources-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Repository Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>repository</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-repository-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Resources Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>resources</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-resources-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven SCM Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>scm</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-scm-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven SCM Publish Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>scm-publish</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-scm-publish-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Shade Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>shade</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-shade-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Shade Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>shade</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-shade-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Shade Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>shade</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-shade-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Site Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>site</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-site-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+Progress (2): maven-metadata.xml (10/14 kB) | maven-metadata.xml (5.5/20 kB)[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Site plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>site</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-site-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Site Plugin 3</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>site</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-site-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Site Plugin 2</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>site</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-site-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Source Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>source</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-source-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Source Plug-In</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>source</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-source-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Stage Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>stage</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-stage-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Surefire Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>surefire</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-surefire-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "gin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven Surefire Report Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>surefire-report</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-surefire-report-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Toolchains Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>toolchains</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-toolchains-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven Verifier Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>verifier</prefix"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+Progress (2): maven-metadata.xml (13/14 kB) | maven-metadata.xml (5.5/20 kB)[DEBUG] http-outgoing-1 << "      <name>Failsafe Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>failsafe</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>failsafe-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>FindBugs Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>findbugs</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>findbugs-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Fit Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>fit</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>fit-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Fitnesse plugin.</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>fitnesse</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>fitnesse-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << ">[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-verifier-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven WAR Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>war</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-war-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Maven War Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>war</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-war-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << "      <name>Apache Maven WAR Plugin</name>[\n]"
+[DEBUG] http-outgoing-0 << "      <prefix>war</prefix>[\n]"
+[DEBUG] http-outgoing-0 << "      <artifactId>maven-war-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-0 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "  </plugins>[\n]"
+[DEBUG] http-outgoing-0 << "</metadata>[\n]"
+Progress (2): maven-metadata.xml (14 kB) | maven-metadata.xml (5.5/20 kB)   [DEBUG] Connection [id: 0][route: {s}->https://repo.maven.apache.org:443] can be kept alive indefinitely
+[DEBUG] Connection released: [id: 0][route: {s}->https://repo.maven.apache.org:443][total kept alive: 1; route allocated: 2 of 20; total allocated: 2 of 40]
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Flatten Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>flatten</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>flatten-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Groovy Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>groovy</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>groovy-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Mojo's Maven Plugin for GWT</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>gwt</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>gwt-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Hibernate3 Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>hibernate3</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>hibernate3-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>IANAL Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>ianal</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>ianal-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven IDEA UI Designer Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>ideauidesigner</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>ideauidesigner-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>CORBA IDL Compiler Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>idlj</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>idlj-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Jalopy Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jalopy</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>jalopy-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven JasperReports Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jasperreports</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>jasperreports-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>JavaCC Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>javacc</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>javacc-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>JavaNCSS Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>javancss</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>javancss-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>JAXB-2 Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jaxb2</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>jaxb2-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>JAX-WS Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jaxws</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>jaxws-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>JBoss Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jboss</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>jboss-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    "
+Progress (2): maven-metadata.xml (14 kB) | maven-metadata.xml (8.3/20 kB)[DEBUG] http-outgoing-1 << "<plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>JBoss Packaging Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jboss-packaging</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>jboss-packaging-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>JDepend Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jdepend</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>jdepend-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>JPox Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jpox</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>jpox-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>JRuby Mojo Support</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jruby</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>jruby-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] CookieSpec selected: compatibility
+[DEBUG] Connection request: [route: {s}->https://repo.maven.apache.org:443][total kept alive: 1; route allocated: 2 of 20; total allocated: 2 of 40]
+[DEBUG] Connection leased: [id: 0][route: {s}->https://repo.maven.apache.org:443][total kept alive: 0; route allocated: 2 of 20; total allocated: 2 of 40]
+[DEBUG] http-outgoing-0: set socket timeout to 1800000
+[DEBUG] Executing request GET /maven2/org/apache/maven/plugins/maven-metadata.xml.sha1 HTTP/1.1
+[DEBUG] Target auth state: UNCHALLENGED
+[DEBUG] Proxy auth state: UNCHALLENGED
+[DEBUG] http-outgoing-0 >> GET /maven2/org/apache/maven/plugins/maven-metadata.xml.sha1 HTTP/1.1
+[DEBUG] http-outgoing-0 >> Cache-control: no-cache
+[DEBUG] http-outgoing-0 >> Cache-store: no-store
+[DEBUG] http-outgoing-0 >> Pragma: no-cache
+[DEBUG] http-outgoing-0 >> Expires: 0
+[DEBUG] http-outgoing-0 >> Accept-Encoding: gzip
+[DEBUG] http-outgoing-0 >> User-Agent: Apache-Maven/3.5.0 (Java 1.8.0_181; Linux 4.17.19-100.fc27.x86_64)
+[DEBUG] http-outgoing-0 >> Host: repo.maven.apache.org
+[DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+[DEBUG] http-outgoing-0 >> "GET /maven2/org/apache/maven/plugins/maven-metadata.xml.sha1 HTTP/1.1[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Cache-control: no-cache[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Cache-store: no-store[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Pragma: no-cache[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Expires: 0[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip[\r][\n]"
+[DEBUG] http-outgoing-0 >> "User-Agent: Apache-Maven/3.5.0 (Java 1.8.0_181; Linux 4.17.19-100.fc27.x86_64)[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Host: repo.maven.apache.org[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] http-outgoing-0 >> "[\r][\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>JavaScript Import Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>js-import</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>js-import-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>JSLint Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jslint</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>jslint-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Jspc plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jspc</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>jspc-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven JXR Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jxr</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>jxr-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Keytool: Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>keytool</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>keytool-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Localization Tools Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>l10n</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>l10n-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>LaTeX Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>latex</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>latex-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>LESS CSS Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>lesscss</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>lesscss-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>License Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>license</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>license-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Local Configuration Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>local-config</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>local-config-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Makefile Orchestration Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>make</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>make-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven JPox Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>jpox</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>maven-jpox-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven MiniJar Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>minijar</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>minijar-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Mock Repository Manager: Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>mrm</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>mrm-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Multimodule Build O"
+Progress (2): maven-metadata.xml (14 kB) | maven-metadata.xml (11/20 kB) [DEBUG] http-outgoing-1 << "ptimizer Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>multibuild-optimizer</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>multibuild-optimizer-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Native Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>native</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>native-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Native2Ascii Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>native2ascii</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>native2ascii-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>NB Repository Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>nb-repository</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>nb-repository-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>NBM Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>nbm</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>nbm-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Netbeans Freeform Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>netbeans-freeform</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>netbeans-freeform-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Mojo's Maven Plugin for NSIS</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>nsis</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>nsis-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>OpenJPA Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>openjpa</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>openjpa-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven OS X Application Bundle Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>osxappbundle</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>osxappbundle-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Ounce Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>ounce</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>ounce-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Patch Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>patch</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>patch-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Eclipse PDE Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>pde</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>pde-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Platform Attribute Detector Plugin for Maven</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>platform-detector</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>platform-detector-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Project Archive Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>project-archive</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>project-archive-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Project Sources Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>project-sources</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>project-sources-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Properties Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>properties</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>properties-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>RAT Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>rat</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>rat-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Remote-Source Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>remote-source</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "    "
+Progress (2): maven-metadata.xml (14 kB) | maven-metadata.xml (14/20 kB)[DEBUG] http-outgoing-1 << "  <artifactId>remote-source-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Retrotranslator MAven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>retrotranslator</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>retrotranslator-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>RMI Compiler Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>rmic</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>rmic-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>RPM Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>rpm-cbuild</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>rpm-cbuild-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>RPM Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>rpm</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>rpm-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>RSpec Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>rspec</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>rspec-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven 2 SableCC Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>sablecc</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>sablecc-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven SCM Changelog Reporter</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>scmchangelog</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>scmchangelog-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Selenium Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>selenium</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>selenium-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Service Documentation Generator Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>servicedocgen</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>servicedocgen-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Settings Management Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>settings</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>settings-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>shade-maven-plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>shade</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>shade-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Shell Script Executor Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>shell</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>shell-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Ship Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>ship</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>ship-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Super Helpful Integration Testing ThingY (SHITTY) Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>shitty</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>shitty-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>SiteSkinner Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>siteskinner</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>siteskinner-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>State Machine Compiler (SMC) Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>smc</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>smc-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>"
+Progress (2): maven-metadata.xml (14 kB) | maven-metadata.xml (16/20 kB)[DEBUG] http-outgoing-1 << "[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Solaris Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>solaris</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>solaris-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>SonarQube Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>sonar</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>sonar-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>springdoclet</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>springdoclet</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>springdoclet-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>springws-maven-plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>springws</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>springws-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>SQL Plugin for Maven</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>sql</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>sql-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>SQLJ Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>sqlj</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>sqlj-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Surefire Report Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>surefire-report</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>surefire-report-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Sysdeo Tomcat Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>sysdeo-tomcat</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>sysdeo-tomcat-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Taglist Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>taglist</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>taglist-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Templating Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>templating</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>templating-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Tidy Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>tidy</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>tidy-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Tomcat Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>tomcat</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>tomcat-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Plugin for TrueZIP</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>truezip</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>truezip-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven Unix Plug-In</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>unix</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>unix-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Versions Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>versions</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>versions-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven VFS plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>vfs</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>vfs-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Wagon Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>wagon</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>wagon-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>WAS6 Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>was6</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>was6-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>webdoclet</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>webdo"
+Progress (2): maven-metadata.xml (14 kB) | maven-metadata.xml (19/20 kB)[DEBUG] http-outgoing-1 << "clet</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>webdoclet-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] http-outgoing-0 << "ETag: "0fe32c385a8ac82089aad5719b865902"[\r][\n]"
+[DEBUG] http-outgoing-0 << "Content-Type: text/plain[\r][\n]"
+[DEBUG] http-outgoing-0 << "Last-Modified: Sun, 11 Nov 2018 23:56:40 GMT[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Checksum-MD5: 0fe32c385a8ac82089aad5719b865902[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Checksum-SHA1: d68c7e82920a6056b9649fd2b729c82d3c0f365e[\r][\n]"
+[DEBUG] http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] http-outgoing-0 << "Content-Length: 40[\r][\n]"
+[DEBUG] http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] http-outgoing-0 << "Date: Wed, 21 Nov 2018 13:41:05 GMT[\r][\n]"
+[DEBUG] http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] http-outgoing-0 << "Age: 825438[\r][\n]"
+[DEBUG] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Served-By: cache-iad2142-IAD, cache-bma1636-BMA[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Cache: HIT, HIT[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Cache-Hits: 1, 5[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Timer: S1542807665.340904,VS0,VE0[\r][\n]"
+[DEBUG] http-outgoing-0 << "[\r][\n]"
+[DEBUG] http-outgoing-0 << "aed2578d4e5b675d6cdcfea39d7692db6b86a4e3"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Weblogic Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>weblogic</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>weblogic-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[DEBUG] http-outgoing-0 << ETag: "0fe32c385a8ac82089aad5719b865902"
+[DEBUG] http-outgoing-0 << Content-Type: text/plain
+[DEBUG] http-outgoing-0 << Last-Modified: Sun, 11 Nov 2018 23:56:40 GMT
+[DEBUG] http-outgoing-0 << X-Checksum-MD5: 0fe32c385a8ac82089aad5719b865902
+[DEBUG] http-outgoing-0 << X-Checksum-SHA1: d68c7e82920a6056b9649fd2b729c82d3c0f365e
+[DEBUG] http-outgoing-0 << Via: 1.1 varnish
+[DEBUG] http-outgoing-0 << Content-Length: 40
+[DEBUG] http-outgoing-0 << Accept-Ranges: bytes
+[DEBUG] http-outgoing-0 << Date: Wed, 21 Nov 2018 13:41:05 GMT
+[DEBUG] http-outgoing-0 << Via: 1.1 varnish
+[DEBUG] http-outgoing-0 << Age: 825438
+[DEBUG] http-outgoing-0 << Connection: keep-alive
+[DEBUG] http-outgoing-0 << X-Served-By: cache-iad2142-IAD, cache-bma1636-BMA
+[DEBUG] http-outgoing-0 << X-Cache: HIT, HIT
+[DEBUG] http-outgoing-0 << X-Cache-Hits: 1, 5
+[DEBUG] http-outgoing-0 << X-Timer: S1542807665.340904,VS0,VE0
+[DEBUG] http-outgoing-1 << "      <name>Web Minifier Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>webminifier</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>webminifier-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] Connection can be kept alive indefinitely
+[DEBUG] http-outgoing-1 << "      <name>MWEBSTART :: Webstart Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>webstart</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>webstart-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Canoo WebTest Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>webtest</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>webtest-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>XDoclet Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>xdoclet</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>xdoclet-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>XML Maven Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>xml</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>xml-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven XML Beans Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>xmlbeans</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>xmlbeans-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "    <plugin>[\n]"
+[DEBUG] http-outgoing-1 << "      <name>Maven XSLT Plugin</name>[\n]"
+[DEBUG] http-outgoing-1 << "      <prefix>xslt</prefix>[\n]"
+[DEBUG] http-outgoing-1 << "      <artifactId>xslt-maven-plugin</artifactId>[\n]"
+[DEBUG] http-outgoing-1 << "    </plugin>[\n]"
+[DEBUG] http-outgoing-1 << "  </plugins>[\n]"
+[DEBUG] http-outgoing-1 << "</metadata>[\n]"
+Progress (2): maven-metadata.xml (14 kB) | maven-metadata.xml (20 kB)   [DEBUG] Connection [id: 0][route: {s}->https://repo.maven.apache.org:443] can be kept alive indefinitely
+[DEBUG] Connection [id: 1][route: {s}->https://repo.maven.apache.org:443] can be kept alive indefinitely
+[DEBUG] Connection released: [id: 0][route: {s}->https://repo.maven.apache.org:443][total kept alive: 1; route allocated: 2 of 20; total allocated: 2 of 40]
+[DEBUG] Connection released: [id: 1][route: {s}->https://repo.maven.apache.org:443][total kept alive: 2; route allocated: 2 of 20; total allocated: 2 of 40]
+                                                                     [DEBUG] CookieSpec selected: compatibility
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 16 kB/s)
+[DEBUG] Connection request: [route: {s}->https://repo.maven.apache.org:443][total kept alive: 2; route allocated: 2 of 20; total allocated: 2 of 40]
+[DEBUG] Connection leased: [id: 1][route: {s}->https://repo.maven.apache.org:443][total kept alive: 1; route allocated: 2 of 20; total allocated: 2 of 40]
+[DEBUG] http-outgoing-1: set socket timeout to 1800000
+[DEBUG] Executing request GET /maven2/org/codehaus/mojo/maven-metadata.xml.sha1 HTTP/1.1
+[DEBUG] Target auth state: UNCHALLENGED
+[DEBUG] Proxy auth state: UNCHALLENGED
+[DEBUG] http-outgoing-1 >> GET /maven2/org/codehaus/mojo/maven-metadata.xml.sha1 HTTP/1.1
+[DEBUG] http-outgoing-1 >> Cache-control: no-cache
+[DEBUG] http-outgoing-1 >> Cache-store: no-store
+[DEBUG] http-outgoing-1 >> Pragma: no-cache
+[DEBUG] http-outgoing-1 >> Expires: 0
+[DEBUG] http-outgoing-1 >> Accept-Encoding: gzip
+[DEBUG] http-outgoing-1 >> User-Agent: Apache-Maven/3.5.0 (Java 1.8.0_181; Linux 4.17.19-100.fc27.x86_64)
+[DEBUG] http-outgoing-1 >> Host: repo.maven.apache.org
+[DEBUG] Writing tracking file /home/gustaf/.m2/repository/org/apache/maven/plugins/resolver-status.properties
+[DEBUG] http-outgoing-1 >> Connection: Keep-Alive
+[DEBUG] http-outgoing-1 >> "GET /maven2/org/codehaus/mojo/maven-metadata.xml.sha1 HTTP/1.1[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Cache-control: no-cache[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Cache-store: no-store[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Pragma: no-cache[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Expires: 0[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Accept-Encoding: gzip[\r][\n]"
+[DEBUG] http-outgoing-1 >> "User-Agent: Apache-Maven/3.5.0 (Java 1.8.0_181; Linux 4.17.19-100.fc27.x86_64)[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Host: repo.maven.apache.org[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] http-outgoing-1 >> "[\r][\n]"
+[DEBUG] http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] http-outgoing-1 << "ETag: "cb959d3400eb8b86780f4e074690a017"[\r][\n]"
+[DEBUG] http-outgoing-1 << "Content-Type: text/plain[\r][\n]"
+[DEBUG] http-outgoing-1 << "Last-Modified: Sat, 08 Sep 2018  9:26:08 GMT[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-Checksum-MD5: cb959d3400eb8b86780f4e074690a017[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-Checksum-SHA1: 73c63152e9f5cd3c42d44c88f92847eb4e2048f1[\r][\n]"
+[DEBUG] http-outgoing-1 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] http-outgoing-1 << "Content-Length: 40[\r][\n]"
+[DEBUG] http-outgoing-1 << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] http-outgoing-1 << "Date: Wed, 21 Nov 2018 13:41:05 GMT[\r][\n]"
+[DEBUG] http-outgoing-1 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] http-outgoing-1 << "Age: 6404884[\r][\n]"
+[DEBUG] http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-Served-By: cache-iad2142-IAD, cache-bma1637-BMA[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-Cache: HIT, HIT[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-Cache-Hits: 1, 769[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-Timer: S1542807665.361625,VS0,VE0[\r][\n]"
+[DEBUG] http-outgoing-1 << "[\r][\n]"
+[DEBUG] http-outgoing-1 << HTTP/1.1 200 OK
+[DEBUG] http-outgoing-1 << ETag: "cb959d3400eb8b86780f4e074690a017"
+[DEBUG] http-outgoing-1 << Content-Type: text/plain
+[DEBUG] http-outgoing-1 << Last-Modified: Sat, 08 Sep 2018  9:26:08 GMT
+[DEBUG] http-outgoing-1 << X-Checksum-MD5: cb959d3400eb8b86780f4e074690a017
+[DEBUG] http-outgoing-1 << X-Checksum-SHA1: 73c63152e9f5cd3c42d44c88f92847eb4e2048f1
+[DEBUG] http-outgoing-1 << Via: 1.1 varnish
+[DEBUG] http-outgoing-1 << Content-Length: 40
+[DEBUG] http-outgoing-1 << Accept-Ranges: bytes
+[DEBUG] http-outgoing-1 << Date: Wed, 21 Nov 2018 13:41:05 GMT
+[DEBUG] http-outgoing-1 << Via: 1.1 varnish
+[DEBUG] http-outgoing-1 << Age: 6404884
+[DEBUG] http-outgoing-1 << Connection: keep-alive
+[DEBUG] http-outgoing-1 << X-Served-By: cache-iad2142-IAD, cache-bma1637-BMA
+[DEBUG] http-outgoing-1 << X-Cache: HIT, HIT
+[DEBUG] http-outgoing-1 << X-Cache-Hits: 1, 769
+[DEBUG] http-outgoing-1 << X-Timer: S1542807665.361625,VS0,VE0
+[DEBUG] Connection can be kept alive indefinitely
+[DEBUG] http-outgoing-1 << "2fa1b0f4d5086d9251cf43842717df1783288abe"
+[DEBUG] Connection [id: 1][route: {s}->https://repo.maven.apache.org:443] can be kept alive indefinitely
+[DEBUG] Connection released: [id: 1][route: {s}->https://repo.maven.apache.org:443][total kept alive: 2; route allocated: 2 of 20; total allocated: 2 of 40]
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 24 kB/s)
+[DEBUG] Writing tracking file /home/gustaf/.m2/repository/org/codehaus/mojo/resolver-status.properties
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;31mBUILD FAILURE[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time: 2.472 s
+[INFO] Finished at: 2018-11-21T14:41:05+01:00
+[INFO] Final Memory: 22M/244M
+[INFO] [1m------------------------------------------------------------------------[m
+[ERROR] No plugin found for prefix 'lint' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/gustaf/.m2/repository), central (https://repo.maven.apache.org/maven2)] -> [1m[Help 1][m
+org.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'lint' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/home/gustaf/.m2/repository), central (https://repo.maven.apache.org/maven2)]
+	at org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver.resolve(DefaultPluginPrefixResolver.java:95)
+	at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.findPluginForPrefix(MojoDescriptorCreator.java:266)
+	at org.apache.maven.lifecycle.internal.MojoDescriptorCreator.getMojoDescriptor(MojoDescriptorCreator.java:220)
+	at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments(DefaultLifecycleTaskSegmentCalculator.java:104)
+	at org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator.calculateTaskSegments(DefaultLifecycleTaskSegmentCalculator.java:83)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:89)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:309)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:194)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:107)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:993)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:345)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:191)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException

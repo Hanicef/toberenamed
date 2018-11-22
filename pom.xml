@@ -14,6 +14,7 @@
     <version>2.0.0.RELEASE</version>
   </parent>
 
+  <packaging>war</packaging>
 
   <dependencies>
     <dependency>
@@ -36,13 +37,36 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-tomcat</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
+
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
+      <version>2.0.1.Final</version>
+      <scope>provided</scope>
+    </dependency>
+
 
     <!--  Starter for using Spring Data JPA with Hibernate -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
+
 
     <!--  Starter for using Spring Security -->
 	<!--
@@ -100,12 +124,13 @@
       <version>5.1.47</version>
     </dependency>
 
-    <!-- Tomcat for JSP rendering -->
+    <!-- Tomcat for JSP rendering
     <dependency>
       <groupId>org.apache.tomcat.embed</groupId>
       <artifactId>tomcat-embed-jasper</artifactId>
       <scope>provided</scope>
     </dependency>
+    -->
 
     <!-- https://mvnrepository.com/artifact/org.springframework.integration/spring-integration-mail -->
     <dependency>
@@ -129,4 +154,30 @@
     </dependency>
 
   </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.0</version>
+        <configuration>
+          <compilerArgument>-Xlint:unchecked</compilerArgument>
+          <!--
+          <compilerArguments>
+              <Xlint:all />
+          </compilerArguments>
+          -->
+          <showWarnings>true</showWarnings>
+          <showDeprecation>true</showDeprecation>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <configuration>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>

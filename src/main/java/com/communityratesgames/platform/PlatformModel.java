@@ -21,7 +21,7 @@ public class PlatformModel implements Serializable {
         this.name = entity.getName();
         this.releaseYear = entity.getReleaseYear();
         this.company = new CompanyModel(entity.getCompany());
-        this.games = new ArrayList();
+        this.games = new ArrayList<GameModel>();
         for (GameEntity game : entity.getGames()) {
             this.games.add(new GameModel(game));
         }

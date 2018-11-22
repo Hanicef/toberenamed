@@ -1,6 +1,7 @@
 package com.communityratesgames.rating;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.stereotype.Service;
 
 import java.sql.Timestamp;
@@ -9,12 +10,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@Configurable
 public class RatingService implements RatingServiceInterface {
 
     @Autowired
-    private final RatingRepository ratingRepository;
-
-    public RatingService(RatingRepository ratingRepository) {this.ratingRepository = ratingRepository;}
+    private RatingRepository ratingRepository;
 
     public RatingModel createNewRating(RatingModel ratingModel) {
         RatingEntity rating = new RatingEntity(ratingModel);
